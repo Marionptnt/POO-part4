@@ -76,7 +76,5 @@ class Car extends Vehicle implements LightableInterface
     public function setHasParkBrake($hasParkBrake)
     {
         $this->hasParkBrake = $hasParkBrake;
-
-        return $this;
     }
 }
